@@ -17,4 +17,12 @@ git merge new-feature
 (the plus and minus are numbers of lines modified, added or removed)
 git log: tells you all the commits 
 
-Github is a complete different 
+Git merge conflict:
+if two people worked on the roject and made changes about the same thing together, you get an error when trying to merge. 
+<<<<<<<HEAD is what I have 
+>>>>>>> id is what my partner changed 
+To fix, just delete on of the changes
+
+git commit -am 'fix merge conflict'
+git push
+This is why it's good to put data files as external files. So one person can work on the file and another person can work on the JS. 
